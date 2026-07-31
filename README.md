@@ -1,4 +1,4 @@
-# Catolichord+
+#ShemAppWeb
 
 Plataforma para ministérios de música católicos — biblioteca de cifras, organização
 litúrgica, repertórios e modo apresentação, com funcionamento **offline (PWA)**.
