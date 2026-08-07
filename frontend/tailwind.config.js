@@ -5,13 +5,25 @@ export default {
   theme: {
     extend: {
       colors: {
+        // azul-marinho — cor primária (botões, navegação, cabeçalhos)
         brand: {
-          50: "#fdf4e7",
-          100: "#f8e3bd",
-          400: "#d4a24a",
-          600: "#a8722a",
-          700: "#7a5220",
+          50: "#EEF2F8",
+          100: "#D7E0EE",
+          200: "#AFC1DD",
+          400: "#3E5A82",
+          600: "#122A4E",
+          700: "#0B1D38",
+          900: "#050D1A",
         },
+        // dourado — cor de destaque (acordes, detalhes, ícones especiais)
+        gold: {
+          400: "#E3C583",
+          500: "#C9A24D",
+          600: "#A9822E",
+        },
+      },
+      fontFamily: {
+        serif: ["'Playfair Display'", "Georgia", "serif"],
       },
     },
   },

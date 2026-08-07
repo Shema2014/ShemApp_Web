@@ -7,18 +7,19 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.svg"],
+      includeAssets: ["favicon-32.png"],
       manifest: {
-        name: "Catolichord+",
-        short_name: "Catolichord+",
-        description: "Plataforma completa para ministérios de música católicos",
-        theme_color: "#a8722a",
-        background_color: "#fdf4e7",
+        name: "ShemApp",
+        short_name: "ShemApp",
+        description: "Ministério de Música — biblioteca de cifras, escalas e repertório",
+        theme_color: "#122A4E",
+        background_color: "#F3E9D8",
         display: "standalone",
         start_url: "/",
         icons: [
-          { src: "pwa-192.png", sizes: "192x192", type: "image/png" },
-          { src: "pwa-512.png", sizes: "512x512", type: "image/png" },
+          { src: "icon-192.png", sizes: "192x192", type: "image/png" },
+          { src: "icon-512.png", sizes: "512x512", type: "image/png" },
+          { src: "icon-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
         ],
       },
       workbox: {
